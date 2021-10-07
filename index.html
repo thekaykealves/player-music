@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
+    <title>Player Music</title>
+
+</head>
+<body>
+    <div class="container">
+        <div id="image-video">
+            <img id="image-fundo" src="./assets/imagens/alok.jpeg" alt="">
+        </div>
+        <div class="title">
+            <h2>Alive</h2>
+            <p id="artist">Alok</p>
+        </div>
+
+        <div class="duracao">
+            <div class="barra">
+                <progress value="0" max="1"></progress>
+                <div class="ponto"></div>
+            </div>
+        </div>
+        
+        <div id="player_midia">
+            <i class="setas fas fa-step-backward anterior"></i>
+            <i id="button-play" class="button fas fa-play-circle"></i>
+            <i id="button-pause" class="button far fa-pause-circle"></i>
+            <i class="setas fas fa-step-forward proxima"></i>
+        </div>
+        <audio src="./assets/musicas/Alok - Alive (It Feels Like) Official Video _160k.mp3"></audio>
+        <script src="script.js"></script>
+    </div>  
+</body>
+</html>
